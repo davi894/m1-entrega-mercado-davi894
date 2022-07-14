@@ -15,7 +15,6 @@ function frutas() {
 
             if (products[i].image == undefined) {
                 img.src = "./img/products/no-img.svg"
-                console.log("ooo")
             }
 
             let main = document.createElement("main")
